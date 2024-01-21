@@ -22,4 +22,16 @@ public class Student {
 	public Teacher getTeacher() {
 		return this.teacher;
 	}
+	
+	@Override
+	public String toString() {
+		return "Student: {name: "
+				+ this.name
+				+ ", grade: "
+				+ this.grade + "}.";
+	}
+	
+	public void print() {
+		System.out.println(this.toString());
+	}
 }

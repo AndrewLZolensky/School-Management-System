@@ -6,7 +6,7 @@ public class App {
 		
 		// read students into database, print all
 		Student jimmy = new Student("Jimmy", 4);
-		System.out.println("Student named " + jimmy.getName() + " in grade " + jimmy.getGrade());
+		jimmy.print();
 		// read teachers into database, print all
 		// assign students to teachers based on grade
 		// display classes
