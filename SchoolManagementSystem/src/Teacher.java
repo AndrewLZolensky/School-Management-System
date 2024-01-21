@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Teacher {
 	
@@ -9,7 +10,7 @@ public class Teacher {
 	Teacher(String name, int grade) {
 		this.name = name;
 		this.grade = grade;
-		this.students = null;
+		this.students = new ArrayList<Student>();
 	}
 	
 	public String getName() {
