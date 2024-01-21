@@ -23,4 +23,17 @@ public class Teacher {
 	public ArrayList<Student> getStudents() {
 		return this.students;
 	}
+	
+	@Override
+	public String toString() {
+		return "Teacher: {name: "
+				+ this.name
+				+ ", grade: "
+				+ this.grade
+				+ "}.";
+	}
+	
+	public void print() {
+		System.out.println(this.toString());
+	}
 }
