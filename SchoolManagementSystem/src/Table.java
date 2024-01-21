@@ -4,9 +4,9 @@ import java.util.List;
 
 public class Table {
 	
-	private String name;
-	private ArrayList<String> fields;
-	private HashMap<String, ArrayList<String>> data;
+	protected String name;
+	protected ArrayList<String> fields;
+	protected HashMap<String, ArrayList<String>> data;
 	
 	Table(String name) {
 		this.name = name;

@@ -22,6 +22,7 @@ public class Database {
 	
 	public void print() {
 		
+		System.out.println("Database contents:");
 		for (Table table : this.tables) {
 			System.out.println(table.toString());
 		}
