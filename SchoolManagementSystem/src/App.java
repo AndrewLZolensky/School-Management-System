@@ -16,6 +16,18 @@ public class App {
 		// create new teacher
 		Teacher jane = new Teacher("Jane", 4);
 		jane.print();
+		
+		// create new database
+		Database db = new Database();
+		
+		// create new tables
+		Table students = new Table("Students");
+		Table teachers = new Table("Teachers");
+		
+		// add new tables to database
+		db.addTable(students);
+		db.addTable(teachers);
+		db.print();
 	}
 
 }

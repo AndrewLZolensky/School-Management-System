@@ -15,4 +15,15 @@ public class Database {
 	ArrayList<Table> getTables() {
 		return this.tables;
 	}
+	
+	public void addTable(Table table) {
+		this.tables.add(table);
+	}
+	
+	public void print() {
+		
+		for (Table table : this.tables) {
+			System.out.println(table.toString());
+		}
+	}
 }
